@@ -244,6 +244,9 @@ LANDING PAGE
     position: absolute;
     bottom: 32px;
     right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .scroll {
@@ -295,12 +298,13 @@ nav {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    height: 100px;
+    height: 80px;
 }
 
 #personal-logo {
     width: 50px;
     height: 50px;
+    border-radius: 50%;
 }
 
 .nav__link--list {
@@ -620,6 +624,7 @@ footer {
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    filter: brightness(0.8);
 }
 
 .footer__social--list {
@@ -711,6 +716,10 @@ SHAPES
         flex-direction: column-reverse;
     }
 
+    .modal__language--img {
+        height: 75%;
+    }
+
     .modal__half {
         width: 100%;
     }
@@ -743,6 +752,10 @@ SHAPES
 
     .project__description--sub-title {
         margin-bottom: 8px;
+    }
+
+    .modal__language--img {
+        height: 60%;
     }
 
     .modal__half {
